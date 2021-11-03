@@ -11,7 +11,7 @@ app.listen(3001, function () {
 app.use(cors());
 
 app.get("/", function (request, response, next) {
-    response.send("這頁沒啥用，請在網址加上stock1")
+    response.send("Hello World!")
 });
 
 app.get("/stock", async function (req, res, next) {
