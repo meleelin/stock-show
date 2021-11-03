@@ -1,0 +1,28 @@
+.styled-table {
+  border-collapse: collapse;
+}
+
+.styled-table thead tr {
+  background-color: #21487a;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table thead th:first-child {
+  border-top-left-radius: 10px;
+}
+.styled-table thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 1px solid #21487a;
+}
